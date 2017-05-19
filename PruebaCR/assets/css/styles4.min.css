@@ -1,0 +1,426 @@
+.article-list {
+    color: #313437;
+    background-color: #fff
+}
+
+.article-list p {
+    color: #7d8285
+}
+
+.article-list h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit
+}
+
+@media (max-width:767px) {
+    .article-list h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.article-list .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.article-list .intro p {
+    margin-bottom: 0
+}
+
+.article-list .articles {
+    padding-bottom: 40px
+}
+
+.article-list .item {
+    padding-top: 50px;
+    min-height: 425px;
+    text-align: center
+}
+
+.article-list .item .name {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    color: inherit
+}
+
+.article-list .item .description {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 0
+}
+
+.article-list .item .action {
+    font-size: 24px;
+    width: 24px;
+    margin: 22px auto 0;
+    line-height: 1;
+    display: block;
+    color: #4f86c3;
+    opacity: .85;
+    transition: opacity .2s;
+    text-decoration: none
+}
+
+.article-list .item .action:hover {
+    opacity: 1
+}
+
+#add-registro {
+    margin-top: 5px;
+    color: #fff
+}
+
+#add-register {
+    background-color: #398439;
+    color: #FFF
+}
+
+#boton-success {
+    padding: 4px
+}
+
+.material-icons {
+    font-size: 17px;
+    color: #8A8A8A
+}
+
+.inputs-color-icons {
+    background-color: #fff
+}
+
+.icons-agree-org {
+    background-color: rgba(103, 58, 183, .7)
+}
+
+#agree-more {
+    color: #FFF
+}
+
+.titles {
+    color: #8A8A8A
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFF
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #DFFFFF
+}
+
+#img-logo {
+    padding: 0
+}
+
+#icon-logout {
+    color: #fff;
+    font-size: 20px
+}
+
+#btn-ok {
+    margin-right: 251px
+}
+
+p#text-modal {
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 1em
+}
+
+#modal-body-container {
+    background-color: rgba(103, 58, 183, .1)
+}
+
+div#contact-box {
+    padding-right: 0;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    min-height: 100%;
+    max-height: 100%
+}
+
+p#contact-text {
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    font-size: medium
+}
+
+div.info-box {
+    margin-bottom: 15px
+}
+
+.my-info-icons {
+    margin-right: 15px
+}
+
+div#info-container {
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+div.site-form,
+i.form-control-feedback {
+    padding-top: 10px
+}
+
+button#form-btn {
+    border-radius: 0;
+    width: 30%;
+    height: 40px;
+    font-size: 1em;
+    background: #fff
+}
+
+form#my-form {
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    border-radius: 0!important
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+textarea.form-control:focus {
+    background-color: rgba(7, 204, 152, .2);
+    -moz-box-shadow: 0 0 5px #07CC98;
+    -webkit-box-shadow: 0 0 5px #07CC98;
+    box-shadow: 0 0 5px #07CC98;
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=true, ShadowOpacity=.3);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)"
+}
+
+.login-clean {
+    background: #f1f7fc;
+    padding: 80px 0
+}
+
+.login-clean form {
+    max-width: 320px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .1)
+}
+
+.login-clean .illustration {
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 100px;
+    color: #337ab7
+}
+
+.login-clean form .form-control {
+    background: #f7f9fc;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 0;
+    color: inherit;
+    text-indent: 8px;
+    height: 42px
+}
+
+.login-clean form .btn-primary {
+    background: #337ab7;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    outline: 0!important
+}
+
+.login-clean form .btn-primary:active,
+.login-clean form .btn-primary:hover {
+    background: #eb3b60
+}
+
+.login-clean form .btn-primary:active {
+    transform: translateY(1px)
+}
+
+.login-clean form .forgot {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: .9;
+    text-decoration: none
+}
+
+.icon-welcome i,
+.icons-welcome i,
+i#icons-welcome.material-icons {
+    font-size: 100px
+}
+
+.login-clean form .forgot:active,
+.login-clean form .forgot:hover {
+    opacity: 1;
+    text-decoration: none
+}
+
+.panel-table .panel-body {
+    padding: 0
+}
+
+.panel-table .panel-body .table-bordered {
+    border-style: none;
+    margin: 0
+}
+
+.panel-table .panel-body .table-bordered>thead>tr>th:first-of-type {
+    text-align: center;
+    width: 100px
+}
+
+.panel-table .panel-body .table-bordered>tbody>tr>td:last-of-type,
+.panel-table .panel-body .table-bordered>thead>tr>th:last-of-type {
+    border-right: 0
+}
+
+.panel-table .panel-body .table-bordered>tbody>tr>td:first-of-type,
+.panel-table .panel-body .table-bordered>thead>tr>th:first-of-type {
+    border-left: 0
+}
+
+.panel-table .panel-body .table-bordered>tbody>tr:first-of-type>td {
+    border-bottom: 0
+}
+
+.panel-table .panel-body .table-bordered>thead>tr:first-of-type>th {
+    border-top: 0
+}
+
+.panel-table .panel-footer .pagination {
+    margin: 0
+}
+
+.panel-table .panel-footer .col {
+    line-height: 34px;
+    height: 34px
+}
+
+.panel-table .panel-heading .col h3 {
+    line-height: 30px;
+    height: 30px
+}
+
+.panel-table .panel-body .table-bordered>tbody>tr>td {
+    line-height: 34px
+}
+
+.icon-welcome i {
+    margin-left: 1.5em
+}
+
+span.text-home {
+    margin-top: .2em;
+    position: absolute
+}
+
+.navbar-nav {
+    margin: 4px 1px
+}
+
+.btn,
+label {
+    margin-bottom: 0
+}
+
+#home-icon {
+    float: left;
+    margin-right: .2em;
+    font-size: 25px
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 18px;
+    margin-top: .1em
+}
+
+#icon-org {
+    margin-right: 15px;
+    margin-top: -6px
+}
+
+label {
+    margin-top: -5em;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 12px;
+    color: #ccc
+}
+
+.btn,
+.glyphicon {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.btn {
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 1.7em
+}
+
+hr {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+    width: 278px;
+    margin-left: 0
+}
+
+.navbar-default {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#414042), to(#414042))
+}
